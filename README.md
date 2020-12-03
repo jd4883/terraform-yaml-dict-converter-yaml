@@ -1,0 +1,2 @@
+# terraform-yaml-dict-converter-yaml
+Small terrafom module to convert yaml to a terraform map which can be referenced in many useful ways. Strongly recommend storing this to one or more locals and using this as an alternate to tfvars for filling in values. I wrote this to easily handle building terraform code at scale with terraform 13's dynamic module instantiation features in a human readable manner.
